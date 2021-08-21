@@ -2,10 +2,10 @@
 
 # Breakout Game
 
-Breakout Game é um jogo para arcade, bem clássico e antigo.
-Jogo feito na maior parte com Javascript e Canvas.
+Breakout Game its game for arcade, old and classic !
+Game made with Javascript and Canvas !
 
-Link do jogo: https://samueloh99.github.io/BreakoutGame/
+GAME LINK: https://samueloh99.github.io/BreakoutGame/
 
 # Sceenshot
 
@@ -15,7 +15,14 @@ Link do jogo: https://samueloh99.github.io/BreakoutGame/
 
 ## Installation
 
-- Clone or download the project and open the index.html on your browser.
+If you’d like to view my project in your browser:
+
+```
+$ git clone https://github.com/samueloh99/BreakoutGame.git
+
+```
+
+And then right click on the `index.html` file and open it in your browser.
 
 ## Instructions to play:
 
@@ -26,3 +33,11 @@ Link do jogo: https://samueloh99.github.io/BreakoutGame/
 
 - More levels
 - Faster ball colision
+
+## If you want to contribute
+
+1. Fork it
+2. Create your branch ($ git checkout -b feature/fooBar)
+3. Commit your changes ($ git commit -am 'Add some fooBar')
+4. Push to the branc ($ git push origin feature/fooBar)
+5. Create a new pull Request
