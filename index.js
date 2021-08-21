@@ -8,8 +8,8 @@ var ctx = canvas.getContext("2d");
 var radius = 10;
 var x = canvas.width/2;
 var y = canvas.height-30;
-var dx = 2;
-var dy = -2;
+var dx = 6;
+var dy = -6;
 var paddleHeight = 10;
 var paddleWidth = 75;
 var paddleX = (canvas.width-paddleWidth)/2;
@@ -20,7 +20,7 @@ var barraColumnAc = 3;
 var barraWidth = 75;
 var barraHeight = 20;
 var barraPadding = 10;
-var barraOffsetTop = 30;
+var barraOffsetTop = 40;
 var barraOffsetLeft = 30;
 var pontos = 0;
 var vida = 3;
@@ -83,6 +83,7 @@ function drawPrancha() {
   ctx.fill();
   ctx.closePath();
 }
+
 function drawBarra() {
   for(var c=0; c<barraColumnAc; c++) {
     for(var r=0; r<barraRowAc; r++) {
@@ -100,11 +101,13 @@ function drawBarra() {
     }
   }
 }
+
 function drawPontos() {
   ctx.font = "16px Arial";
   ctx.fillStyle = "black";
   ctx.fillText("Pontuação: "+pontos, 8, 20);
 }
+
 function drawVida() {
   ctx.font = "16px Arial";
   ctx.fillStyle = "black";
